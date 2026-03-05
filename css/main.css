@@ -23,8 +23,8 @@ body {
   font-family: 'Pretendard Variable', sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
-  background-color: #212121;
-  color: #fff;
+  background-color: #faebee;
+  color: #353f80;
 }
 /*img, iframe{vertical-align: top;}*/
 img,
@@ -35,12 +35,14 @@ iframe {
   width: 1200px;
   margin: 0px auto;
 }
+
 a {
-  color: #fff;
+  color: #353f80;
   text-decoration: none;
   font-size: 1.8rem;
   font-weight: 600;
   transition: 300ms;
+  font-family: 'galmuri9', 'sans-serif';
 }
 a:hover,
 a:focus,
@@ -55,8 +57,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #333;
-  border-bottom: 1px solid #ccc;
+  background-color: #ffffff;
 }
 .header-inner {
   display: flex;
@@ -88,9 +89,12 @@ header {
 
 /* main visual */
 #main-visual {
+  display: flex;
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
+  justify-content: center;
+  align-items: center;
 }
 #main-visual > video {
   position: absolute;
