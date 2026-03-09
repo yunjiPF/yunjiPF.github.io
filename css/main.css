@@ -105,7 +105,7 @@ header {
   height: 100%;
   object-fit: cover;
 }
-
+/* profile */
 #profile {
   margin-top: 80px;
 }
@@ -113,19 +113,22 @@ header {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  width: 70%;
+  padding: 40px 0;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .ab-img-wrap {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  width: 60%;
-  flex-shrink: 0;
-  padding: 100px;
-  padding-left: 200px;
+  width: 350px;
+  padding-right: 50px;
 }
 .ab-img-wrap > img {
-  width: 65%;
+  width: 100%;
   /*aspect-ratio: 1/1;
   object-fit: cover;
   /* 사진을 원형으로 만들기 위한 코드, 사각형으로 하려면 삭제 
@@ -143,6 +146,12 @@ header {
   font-family: 'galmuri9', 'sans-serif';
   margin-bottom: 5px;
 }
+
+.ab-text-wrap > h4:first-child {
+  line-height: 4rem;
+  padding-bottom: 10px;
+}
+
 .ab-text-wrap h5 {
   font-size: 2rem;
   font-weight: 400;
@@ -150,6 +159,10 @@ header {
 }
 .ab-text-wrap > h5 {
   margin-bottom: 0px 0px;
+}
+
+.ab-text-wrap > h5 > span {
+  font-size: 1.6rem;
 }
 
 /* skill */
