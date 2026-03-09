@@ -74,11 +74,12 @@ header {
   margin-left: 40px;
 }
 .section-title {
-  font-family: 'Prata', serif;
-  font-size: 4rem;
+  font-family: 'galmuri14', 'sans-serif';
+  font-size: 6rem;
   font-weight: 800;
   margin-bottom: 80px;
   text-align: center;
+  letter-spacing: 10px;
 }
 .section-sub-title {
   font-family: 'Prata', serif;
@@ -117,7 +118,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
+  width: 60%;
   flex-shrink: 0;
 }
 .ab-img-wrap > img {
