@@ -191,7 +191,7 @@ header {
 .skills {
   padding: 20px;
   color: #3e4a97; /* 글자색 */
-  font-family: 'inter', sans-serif;
+  font-family: 'inker', sans-serif;
   justify-content: center;
   width: 800px;
 }
@@ -268,6 +268,75 @@ header {
 */
 
 /* work */
+.long h4 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f3e4e4;
+  margin: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'inika', 'sans-serif';
+}
+
+.card {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.card img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.text {
+  flex: 1;
+}
+
+.text h2 {
+  margin-bottom: 10px;
+  font-family: 'inika', 'sans-serif';
+}
+
+.text p {
+  margin: 5px 0;
+  color: #353f80;
+  font-family: 'inika', 'sans-serif';
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+/*button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #2f3a6d;
+  color: #faebee;
+  cursor: pointer;
+  font-family: 'inika', 'sans-serif';
+}*/
+
+button:hover {
+  background: #1e2750;
+}
 .long-list > li {
   display: flex;
   margin-bottom: 100px;
@@ -280,6 +349,7 @@ header {
 }
 .long-thumbnail > img {
   width: 100%;
+  margin-top: 50px;
 }
 .long-detail {
   display: flex;
@@ -299,13 +369,14 @@ header {
 }
 .long-detail .long-btns > a {
   font-size: 1.8rem;
-  font-weight: bold;
   display: block;
   line-height: 38px;
   border: 1px solid #516768;
   padding: 0px 25px;
   border-radius: 32px;
-  font-style: italic;
+  background: #2f3a6d;
+  color: #faebee;
+  margin-top: 20px;
 }
 .long-detail .long-btns > a:first-child {
   margin-right: 20px;
