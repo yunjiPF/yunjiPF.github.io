@@ -44,7 +44,8 @@ iframe {
   display: block;
 }
 .center {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0px auto;
 }
 
@@ -74,7 +75,7 @@ header {
 .header-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
   padding: 10px 0px;
 }
 .logo {
@@ -187,10 +188,11 @@ header {
 
 .skills {
   padding: 20px;
-  color: #3e4a97; /* 글자색 */
+  color: #3e4a97;
   font-family: 'inker', sans-serif;
-  justify-content: center;
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .skills h2 {
@@ -276,7 +278,8 @@ body {
 }
 
 .container {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   margin: 50px auto;
   background: rgba(255, 255, 255, 0.5);
   padding: 40px;
@@ -585,7 +588,7 @@ footer {
   }
   .center {
     width: initial;
-    padding: 8px 18px;
+    padding: 8px 10px;
   }
   .gnb > a {
     font-size: 1.4rem;
