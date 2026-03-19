@@ -339,6 +339,8 @@ button:hover {
 }
 .long-list > li {
   display: flex;
+  align-items: start;
+  gap: 30px;
   margin-bottom: 100px;
 }
 .long-list > li:last-child {
@@ -349,13 +351,12 @@ button:hover {
 }
 .long-thumbnail > img {
   width: 100%;
-  margin-top: 50px;
 }
 .long-detail {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  padding: 28px 0px 28px 28px;
+  justify-content: center;
+  padding-top: 30px;
   flex-grow: 1;
 }
 .long-detail > h5 {
@@ -364,10 +365,11 @@ button:hover {
 .long-detail > ul > li {
   line-height: 2.6rem;
 }
-.long-detail .long-btns {
+.long-thumbnail .long-btns {
   display: flex;
+  justify-content: center;
 }
-.long-detail .long-btns > a {
+.long-thumbnail .long-btns > a {
   font-size: 1.8rem;
   display: block;
   line-height: 38px;
@@ -377,12 +379,12 @@ button:hover {
   background: #2f3a6d;
   color: #faebee;
   margin-top: 20px;
-}
-.long-detail .long-btns > a:first-child {
+.}
+.long-thumbnail .long-btns > a:first-child {
   margin-right: 20px;
 }
-.long-detail .long-btns > a:hover,
-.long-detail .long-btns > a:focus {
+.long-thumbnail .long-btns > a:hover,
+.long-thumbnail .long-btns > a:focus {
   background-color: #fff;
   color: #333;
 }
@@ -676,7 +678,7 @@ footer {
   .long-detail > ul {
     margin: 20px 0px;
   }
-  .long-detail .long-btns > a {
+  long-thumbnail .long-btns > a {
     font-size: 1.4rem;
   }
   .short {
