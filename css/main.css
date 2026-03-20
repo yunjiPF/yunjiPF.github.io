@@ -75,13 +75,14 @@ header {
 .header-inner {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
   padding: 10px 0px;
 }
-.logo {
+.logo img {
   align-self: center;
   /* 로고 너비 지정 */
-  width: 65px;
+  width: 95px;
+  margin-top: 15px;
 }
 .gnb > a {
   margin-left: 40px;
