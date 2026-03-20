@@ -154,22 +154,16 @@ header {
   font-size: 3.2rem;
   font-weight: 700;
   font-family: 'inika', 'sans-serif';
-  margin-bottom: 5px;
+  margin-top: 30px;
 }
 
 .ab-text-wrap > h5:first-child {
-  line-height: 4rem;
-  padding-bottom: 10px;
-}
-
-. .ab-text-wrap > p:last-child {
-  margin-bottom: 0px;
+  margin-top: 0;
 }
 
 .ab-text-wrap p {
   font-size: 2rem;
   font-weight: 400;
-  margin-bottom: 30px;
 }
 .ab-text-wrap > p {
   margin-bottom: 0px 0px;
@@ -190,7 +184,7 @@ header {
   padding: 20px;
   color: #3e4a97;
   font-family: 'inker', sans-serif;
-  width: 100%;
+  /* width: 100%; */
   max-width: 800px;
   margin: 0 auto;
 }
@@ -217,6 +211,9 @@ header {
   max-width: 700px;
   justify-content: center;
 }
+.skill-list li {
+  padding: 10px 0;
+}
 
 /*.skill-item {
   display: flex;
@@ -228,6 +225,7 @@ header {
 .skill-item {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .skill-item img {
@@ -237,10 +235,10 @@ header {
   border-radius: 20%;
 }
 
-.skill-text p {
-  margin: 0;
-  font-size: 14px;
+.skill-text {
+  flex-grow: 1;
 }
+
 .skill-text p {
   font-weight: 400;
   font-size: 15px;
@@ -267,10 +265,6 @@ header {
 */
 
 /* work */
-.long h4 {
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
 body {
   font-family: sans-serif;
   background-color: #f3e4e4;
@@ -346,6 +340,10 @@ button:hover {
   justify-content: center;
   padding-top: 30px;
   flex-grow: 1;
+}
+.long-detail h4 {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .long-detail > h5 {
   font-size: 2rem;
@@ -434,6 +432,9 @@ button:hover {
   display: flex;
   gap: 10px;
 }
+#contact .contact-list > li > a img {
+  width: 50px;
+}
 
 /* footer */
 footer {
@@ -489,7 +490,7 @@ footer {
     display: block;
   }
   .ab-img-wrap {
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
     padding-right: 0;
   }
@@ -505,7 +506,8 @@ footer {
     font-size: 2.4rem;
   }
   .ab-text-wrap > h5 {
-    font-size: 2rem;
+    font-size: 2.6rem;
+    margin-top: 20px;
   }
   #skill {
     margin: 100px 0px;
@@ -523,8 +525,15 @@ footer {
   .long-detail {
     padding: 40px 0px;
   }
+  .long-detail h2 {
+    font-size: 3rem;
+  }
   .long-detail > ul {
+    font-size: 2rem;
     margin: 32px 0px;
+  }
+  .long-detail > ul li {
+    line-height: 3rem;
   }
   .short {
     margin-top: 40px;
@@ -637,14 +646,21 @@ footer {
     font-size: 2.2rem;
   }
   .ab-text-wrap > h5 {
-    font-size: 1.6rem;
-    margin: 24px 0px;
+    font-size: 2.6rem;
+    margin-top: 20px;
   }
-  .ab-text-wrap h5 {
-    font-size: 1.6rem;
+  .ab-text-wrap p {
+    text-align: center;
+  }
+  .ab-text-wrap span {
+    display: block;
+    text-align: center;
   }
   #skill {
     margin: 100px 0px;
+  }
+  #skill .skills {
+    padding: 10px;
   }
   #skill h4 {
     margin-bottom: 16px;
@@ -652,15 +668,15 @@ footer {
   #skill h4 > strong {
     font-size: 2.2rem;
   }
-  #skill > ul {
-    flex-wrap: wrap;
+  #skill .skill-list {
+    display: block;
   }
-  #skill > ul > li {
-    width: 50%;
-    margin-bottom: 40px;
+  .skill-item img {
+    width: 45px;
+    height: 45px;
   }
-  #skill > ul > li:last-child {
-    margin-bottom: 0px;
+  #work .container {
+    padding: 20px;
   }
   .long-list > li {
     display: block;
@@ -675,11 +691,17 @@ footer {
   .long-detail {
     padding: 20px 0px;
   }
+  .long-detail h4 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
   .long-detail > ul {
+    /* text-align: center; */
     margin: 20px 0px;
   }
-  long-thumbnail .long-btns > a {
+  .long-thumbnail .long-btns > a {
     font-size: 1.4rem;
+    padding: 0 15px;
   }
   .short {
     margin-top: 40px;
