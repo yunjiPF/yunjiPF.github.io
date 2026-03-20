@@ -150,32 +150,32 @@ header {
   justify-content: center;
 }
 
-.ab-text-wrap > h4 {
-  font-size: 3.8rem;
+.ab-text-wrap > h5 {
+  font-size: 3.2rem;
   font-weight: 700;
   font-family: 'inika', 'sans-serif';
   margin-bottom: 5px;
 }
 
-.ab-text-wrap > h4:first-child {
+.ab-text-wrap > h5:first-child {
   line-height: 4rem;
   padding-bottom: 10px;
 }
 
-.ab-text-wrap > h5:last-child {
+. .ab-text-wrap > p:last-child {
   margin-bottom: 0px;
 }
 
-.ab-text-wrap h5 {
+.ab-text-wrap p {
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 30px;
 }
-.ab-text-wrap > h5 {
+.ab-text-wrap > p {
   margin-bottom: 0px 0px;
 }
 
-.ab-text-wrap > h5 > span {
+.ab-text-wrap > p > span {
   font-size: 1.6rem;
 }
 
@@ -439,7 +439,8 @@ button:hover {
 footer {
   text-align: center;
   padding: 40px;
-  background-color: #000;
+  background-color: #ffffff;
+  color: #1e2750;
 }
 
 /* 특정 스크롤 값에서 맨위로가기 버튼이 보였다 안보였다 설정 디자인 */
@@ -619,14 +620,18 @@ footer {
   .ab-img-wrap {
     width: 70%;
     margin: 0px auto;
+    padding-right: 0px;
   }
   .ab-img-wrap > img {
-    width: 100%;
+    width: 60%;
+    padding-right: 0px;
   }
   .ab-text-wrap {
     width: 80%;
     padding-left: 0;
     margin: 28px auto 0 auto;
+    justify-content: center;
+    align-items: center;
   }
   .ab-text-wrap > h4 {
     font-size: 2.2rem;
