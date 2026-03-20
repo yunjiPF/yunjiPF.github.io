@@ -597,21 +597,23 @@ footer {
 } /* tablet End */
 
 /* mobile */
+
 @media screen and (max-width: 767px) {
   body {
     font-size: 1.4rem;
   }
   .center {
     width: initial;
-    padding: 8px 10px;
+    padding: 0px 10px;
   }
   .gnb > a {
     font-size: 1.4rem;
     margin-left: 10px;
   }
-  #main-visual > video {
-    top: 46px; /* 본인의 헤더 높이만큼 설정 */
+  #main-visual {
+    margin-top: 50px;
   }
+
   .section-title {
     font-size: 2.6rem;
     font-weight: 600;
